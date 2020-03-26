@@ -1,0 +1,96 @@
+html,body{
+	height: 100%;
+}
+
+#content{
+background-image:linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),url('images/0001-5385122687 1.png');
+height: 100%;
+width : 100%;
+background-size: cover;
+//background-repeat: no-repeat;
+background-position: center;
+display: block;
+overflow: hidden;
+}
+.description{
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	padding:10px;
+	padding-right: 15%; 
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+h2{
+	font-family: 'Anton', sans-serif;
+
+}
+footer{
+	background-color: white;
+	color: black;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+footer a:hover{
+	text-decoration: none;
+}
+.carousel-inner{
+    max-width: 100%;
+    height: auto !important;
+    }
+  .carousel-item {
+      height: 100vh;
+      min-height: 350px;
+      width: 100%;
+      background: no-repeat center center scroll;
+     -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      
+        background-size: cover; 
+      /*position:absolute;
+     width: 100%;
+     top:0;
+       */
+  }
+  .carousel-item img{
+    display: block;
+    height: auto;
+    width: 100%;
+  } 
+ 
+   .button{
+    /*   border-color: #fff !important ;
+     */ background-color: none !important;
+        border: none;
+       color: white;
+       padding: 15px 32px;
+       text-align: center;
+       font-size: 16px;
+       cursor: pointer;
+       border-radius: 15px;
+   }
+   
+   .button:hover{
+       background-color:#ff073a;
+       color: black;
+   }
+
+
+    
+    .container-lg{
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+  /*   position: fixed; */
+     overflow: hidden; 
+     width: 100%;
+    padding: 0;
+   
+    }
+  
+    
+   
