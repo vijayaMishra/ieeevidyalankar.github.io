@@ -4,6 +4,9 @@
 .row{
 	padding: 20px;
 }
+.col-md-4{
+	margin: 10px;
+}
 footer{
 	padding: 10px;
 }
